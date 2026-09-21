@@ -3,6 +3,16 @@
     <channel>
         <title>LangFix</title>
         <item>
+            <title>0.4.1</title>
+            <pubDate>Mon, 21 Sep 2026 17:50:10 +0700</pubDate>
+            <sparkle:version>60</sparkle:version>
+            <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- ทดสอบระบบอัปเดตอัตโนมัติครั้งแรก (ไม่มีการเปลี่ยนแปลงการทำงาน)
+]]></description>
+            <enclosure url="https://github.com/nicem4re/langfix-releases/releases/download/v0.4.1/LangFix-0.4.1.dmg" length="2691705" type="application/octet-stream" sparkle:edSignature="Vz1EvLaoUKIZdyGUXew1zvGN6wR+YvmK1p9mQ8+HYmjG179HkvJzwE/edsjYFIeZ6H/Ggtt8QiNaPFBU27TNCA=="/>
+        </item>
+        <item>
             <title>0.4.0</title>
             <pubDate>Mon, 21 Sep 2026 16:48:38 +0700</pubDate>
             <sparkle:version>59</sparkle:version>
@@ -12,7 +22,7 @@
   หรือกด Settings → Check for Updates… ได้ทันที (ใช้ Sparkle 2.10)
 - ใหม่: หน้า Settings แสดงเลขเวอร์ชันและ build
 ]]></description>
-            <enclosure url="https://github.com/nicem4re/langfix-releases/releases/download/v0.4.0/LangFix-0.4.0.dmg" length="2691702" type="application/octet-stream" sparkle:edSignature="GHQdHQ34MNGyBUPJ3fQhhQqb83cawZkSuk5phnV0DvXtKLhvTHTJ038/XFSqLVq4XKciN5XZ1gsEsGT421KOAQ=="/>
+            <enclosure url="https://github.com/nicem4re/langfix-releases/releases/download/v0.4.1/LangFix-0.4.0.dmg" length="2691702" type="application/octet-stream" sparkle:edSignature="GHQdHQ34MNGyBUPJ3fQhhQqb83cawZkSuk5phnV0DvXtKLhvTHTJ038/XFSqLVq4XKciN5XZ1gsEsGT421KOAQ=="/>
         </item>
     </channel>
 </rss>
