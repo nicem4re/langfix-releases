@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>LangFix</title>
+        <item>
+            <title>0.4.0</title>
+            <pubDate>Mon, 21 Sep 2026 16:48:38 +0700</pubDate>
+            <sparkle:version>59</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- ใหม่: **อัปเดตอัตโนมัติ** — แอปเช็ควันละครั้ง เจอเวอร์ชันใหม่จะถามก่อนติดตั้ง
+  หรือกด Settings → Check for Updates… ได้ทันที (ใช้ Sparkle 2.10)
+- ใหม่: หน้า Settings แสดงเลขเวอร์ชันและ build
+]]></description>
+            <enclosure url="https://github.com/nicem4re/langfix-releases/releases/download/v0.4.0/LangFix-0.4.0.dmg" length="2691702" type="application/octet-stream" sparkle:edSignature="GHQdHQ34MNGyBUPJ3fQhhQqb83cawZkSuk5phnV0DvXtKLhvTHTJ038/XFSqLVq4XKciN5XZ1gsEsGT421KOAQ=="/>
+        </item>
+    </channel>
+</rss>
