@@ -3,6 +3,36 @@
     <channel>
         <title>LangFix</title>
         <item>
+            <title>0.6.1</title>
+            <pubDate>Tue, 22 Sep 2026 16:14:00 +0700</pubDate>
+            <sparkle:version>70</sparkle:version>
+            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## 0.6.1 — 2026-09-22
+- แก้: ประโยคที่แปลงถูกและสลับแป้นไปแล้วจริงระหว่างพิมพ์ ถูกย้อนกลับเป็นตัวดิบทั้งประโยค
+  แค่เพราะมีคำสแลง/คำนอกพจนานุกรมปนมาคำเดียว (เช่น "อยุ" พิมพ์ตกจาก "อยู่")
+  → ด่านตรวจซ้ำตอนจบคำ เปลี่ยนไปเช็คแค่ "สะกดเป็นไทยอ่านได้ไหม" แทนการเช็คทุกคำในพจนานุกรม
+- แก้: ตัวตรวจการสะกดไทย (isWellFormedThai) เดิมไม่จำกัดว่าพยัญชนะ 1 ตัวแบกสระ/วรรณยุกต์ได้กี่ตัว
+  ทำให้ขยะแบบ "ฟี้ี้ี" (สระซ้อนกันไม่รู้จบ) หลุดผ่านมาได้ — ตอนนี้จำกัดพยัญชนะละไม่เกิน 1 สระบน/ล่าง
+  + 1 วรรณยุกต์ + 1 สระตามหลัง ตามหลักพยางค์ไทยจริง
+
+## 0.6.0 — 2026-09-22
+- ใหม่: **ซิงค์คำศัพท์จากอินเทอร์เน็ตอัตโนมัติ** — เพิ่มคำสแลง/ชื่อเฉพาะใหม่ๆ ได้โดยไม่ต้องออกเวอร์ชันแอปใหม่
+  แอปเช็คทุก 6 ชั่วโมง (เงียบๆ ไม่มีป๊อปอัป) เจอคำใหม่ก็เพิ่มให้เอง คำที่ผู้ใช้เติมเองไม่มีวันถูกทับ
+  ปุ่ม "อัปเดตคลังคำ" ใน Settings ตอนนี้ดึงจากอินเทอร์เน็ตด้วย ไม่ใช่แค่จากตัวแอป
+- เครื่องมือใหม่ (ฝั่ง Nice): `./add_word.sh th|en <คำ>` เพิ่มคำแล้วขึ้น GitHub ให้ทุกเครื่องดึงเอง
+
+## 0.5.3 — 2026-09-22
+- แก้: เพิ่มคำ "อัพเดธ" (สะกดไม่เป็นทางการ) เข้าคลังคำ — เดิมไม่มีในพจนานุกรม (มีแต่ "อัปเดต"/"อัพเดต")
+  ทำให้ประโยคที่มีคำนี้ปน เช่น "เดี๋ยวลองอัพเดธดูก่อน" ตัดคำไม่ออกและถูกย้อนกลับตอนกด space
+
+## 0.5.2 — 2026-09-22
+- แก้: `release.sh` ตอนนี้รวม changelog ทุกเวอร์ชันที่ข้ามมาไว้ในข้อความอัปเดตเดียว
+  (เดิมโชว์แค่เวอร์ชันล่าสุด เครื่องที่ห่างหายไปหลายรอบจะพลาดเห็นว่ามีอะไรเปลี่ยนไปบ้าง)
+]]></description>
+            <enclosure url="https://github.com/nicem4re/langfix-releases/releases/download/v0.6.1/LangFix-0.6.1.dmg" length="2698772" type="application/octet-stream" sparkle:edSignature="YeVLrciTjflKgyseT+1g6QhO8X24iHshqJwUZZFOHKo/oNRhcInoYj+W1VqHksKZl7Jw0xxw6KY0iObKW1tiDw=="/>
+        </item>
+        <item>
             <title>0.6.0</title>
             <pubDate>Tue, 22 Sep 2026 15:28:04 +0700</pubDate>
             <sparkle:version>69</sparkle:version>
@@ -25,7 +55,7 @@
 ## 0.5.1 — 2026-09-22
 - เปลี่ยน: เช็คอัปเดตทุก 4 ชั่วโมง (เดิมวันละครั้ง)
 ]]></description>
-            <enclosure url="https://github.com/nicem4re/langfix-releases/releases/download/v0.6.0/LangFix-0.6.0.dmg" length="2698763" type="application/octet-stream" sparkle:edSignature="b4Y2z8zlhHBdU3CS69eaS9t2LAJ8cbqzOXyFmFGTXTZHVoufyYOXVoNtn2qvZUh2PTTbk2yEvkl+PxOCPCv4DA=="/>
+            <enclosure url="https://github.com/nicem4re/langfix-releases/releases/download/v0.6.1/LangFix-0.6.0.dmg" length="2698763" type="application/octet-stream" sparkle:edSignature="b4Y2z8zlhHBdU3CS69eaS9t2LAJ8cbqzOXyFmFGTXTZHVoufyYOXVoNtn2qvZUh2PTTbk2yEvkl+PxOCPCv4DA=="/>
         </item>
         <item>
             <title>0.5.2</title>
@@ -46,17 +76,7 @@
   (ทำแบบนี้เพราะ LangFix ไม่มีไอคอนใน Dock ปกติจะไม่มีอะไรเตือนเลยถ้าไม่ใช้ระบบแจ้งเตือน)
 - ครั้งแรกที่เปิดแอปจะมีกล่องถามอนุญาตแจ้งเตือน ต้องกด Allow ถึงจะได้ป้ายนี้ (ไม่กดก็ยังเช็คอัปเดตเองจากเมนูได้ปกติ)
 ]]></description>
-            <enclosure url="https://github.com/nicem4re/langfix-releases/releases/download/v0.6.0/LangFix-0.5.2.dmg" length="2695435" type="application/octet-stream" sparkle:edSignature="7qCSD6Fzpo30QJIbyLwE5Xa3A2QNpbr4gIVlgXkbafGZpz5UIrhnj4P1sPRf36jC22Krpq4gFGhFaIdg/7usCg=="/>
-        </item>
-        <item>
-            <title>0.5.1</title>
-            <pubDate>Tue, 22 Sep 2026 15:13:20 +0700</pubDate>
-            <sparkle:version>66</sparkle:version>
-            <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- เปลี่ยน: เช็คอัปเดตทุก 4 ชั่วโมง (เดิมวันละครั้ง)
-]]></description>
-            <enclosure url="https://github.com/nicem4re/langfix-releases/releases/download/v0.6.0/LangFix-0.5.1.dmg" length="2695424" type="application/octet-stream" sparkle:edSignature="YWEppFCK/RmBnV25UhmsYziSx32pY5vFWlLhCyL4Aak1qxXvbnepQkApIGB1qCs4QFKAbgJ7qSU14h3NNvy2Ag=="/>
+            <enclosure url="https://github.com/nicem4re/langfix-releases/releases/download/v0.6.1/LangFix-0.5.2.dmg" length="2695435" type="application/octet-stream" sparkle:edSignature="7qCSD6Fzpo30QJIbyLwE5Xa3A2QNpbr4gIVlgXkbafGZpz5UIrhnj4P1sPRf36jC22Krpq4gFGhFaIdg/7usCg=="/>
         </item>
     </channel>
 </rss>
