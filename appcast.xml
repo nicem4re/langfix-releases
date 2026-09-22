@@ -3,6 +3,19 @@
     <channel>
         <title>LangFix</title>
         <item>
+            <title>0.5.0</title>
+            <pubDate>Tue, 22 Sep 2026 14:55:33 +0700</pubDate>
+            <sparkle:version>65</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- ใหม่: **แจ้งเตือนตอนมีอัปเดตใหม่** ผ่าน macOS Notification Center — สำหรับเครื่องที่เปิดแอปทิ้งไว้
+  เจออัปเดตจากการเช็คพื้นหลัง (ไม่ใช่ตอนกด Check for Updates… เอง) จะเด้งแจ้งเตือน คลิกแล้วเปิดหน้าต่างอัปเดตให้เลย
+  (ทำแบบนี้เพราะ LangFix ไม่มีไอคอนใน Dock ปกติจะไม่มีอะไรเตือนเลยถ้าไม่ใช้ระบบแจ้งเตือน)
+- ครั้งแรกที่เปิดแอปจะมีกล่องถามอนุญาตแจ้งเตือน ต้องกด Allow ถึงจะได้ป้ายนี้ (ไม่กดก็ยังเช็คอัปเดตเองจากเมนูได้ปกติ)
+]]></description>
+            <enclosure url="https://github.com/nicem4re/langfix-releases/releases/download/v0.5.0/LangFix-0.5.0.dmg" length="2695440" type="application/octet-stream" sparkle:edSignature="DDK/sidRWUzrlaSAzVZzvYorsTtEFG083x4a8OX4Gxgrj++eUHnUmF6Uzi8R/hSileoKo+8q1TLskgxshD6oAg=="/>
+        </item>
+        <item>
             <title>0.4.2</title>
             <pubDate>Tue, 22 Sep 2026 14:48:16 +0700</pubDate>
             <sparkle:version>64</sparkle:version>
@@ -14,7 +27,7 @@
   ระบบเลยส่งมาเป็น "ภาษาเป้าหมาย" ที่ถูกแล้ว แต่แอปยังเก็บเป็นข้อมูลดิบแบบเดิม
   พอตรวจซ้ำตอนจบคำ ข้อมูลกลายเป็นข้อมูลผสมตัดคำไม่ออก เลยย้อนคำที่ถูกอยู่แล้วกลับเป็นขยะ
 ]]></description>
-            <enclosure url="https://github.com/nicem4re/langfix-releases/releases/download/v0.4.2/LangFix-0.4.2.dmg" length="2691980" type="application/octet-stream" sparkle:edSignature="7oFan7MlwGNkuJw/RMSAY6b/+e+FmJHeKPKEtKbKsPKFCpFr9yX7KbxqANUtzbaof30kkjdG79yZarvE7YzAAw=="/>
+            <enclosure url="https://github.com/nicem4re/langfix-releases/releases/download/v0.5.0/LangFix-0.4.2.dmg" length="2691980" type="application/octet-stream" sparkle:edSignature="7oFan7MlwGNkuJw/RMSAY6b/+e+FmJHeKPKEtKbKsPKFCpFr9yX7KbxqANUtzbaof30kkjdG79yZarvE7YzAAw=="/>
         </item>
         <item>
             <title>0.4.1</title>
@@ -25,18 +38,6 @@
             <description sparkle:format="markdown"><![CDATA[- ทดสอบระบบอัปเดตอัตโนมัติครั้งแรก (ไม่มีการเปลี่ยนแปลงการทำงาน)
 ]]></description>
             <enclosure url="https://github.com/nicem4re/langfix-releases/releases/download/v0.4.1/LangFix-0.4.1.dmg" length="2691705" type="application/octet-stream" sparkle:edSignature="Vz1EvLaoUKIZdyGUXew1zvGN6wR+YvmK1p9mQ8+HYmjG179HkvJzwE/edsjYFIeZ6H/Ggtt8QiNaPFBU27TNCA=="/>
-        </item>
-        <item>
-            <title>0.4.0</title>
-            <pubDate>Mon, 21 Sep 2026 16:48:38 +0700</pubDate>
-            <sparkle:version>59</sparkle:version>
-            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[- ใหม่: **อัปเดตอัตโนมัติ** — แอปเช็ควันละครั้ง เจอเวอร์ชันใหม่จะถามก่อนติดตั้ง
-  หรือกด Settings → Check for Updates… ได้ทันที (ใช้ Sparkle 2.10)
-- ใหม่: หน้า Settings แสดงเลขเวอร์ชันและ build
-]]></description>
-            <enclosure url="https://github.com/nicem4re/langfix-releases/releases/download/v0.4.1/LangFix-0.4.0.dmg" length="2691702" type="application/octet-stream" sparkle:edSignature="GHQdHQ34MNGyBUPJ3fQhhQqb83cawZkSuk5phnV0DvXtKLhvTHTJ038/XFSqLVq4XKciN5XZ1gsEsGT421KOAQ=="/>
         </item>
     </channel>
 </rss>
