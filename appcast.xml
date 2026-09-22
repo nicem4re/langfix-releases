@@ -3,6 +3,20 @@
     <channel>
         <title>LangFix</title>
         <item>
+            <title>0.4.2</title>
+            <pubDate>Tue, 22 Sep 2026 14:48:16 +0700</pubDate>
+            <sparkle:version>64</sparkle:version>
+            <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[- แก้บั๊กสำคัญ: ประโยคที่พิมพ์ถูกต้องระหว่างพิมพ์ กลับกลายเป็นขยะตอนกด space
+  (เช่น "ตอนนี้ที่มีปัญหาคืออะไร" พิมพ์ถูกอยู่แล้ว แต่กด space แล้วกลายเป็น "9vนนี้...")
+  สาเหตุ: พอแก้คำได้แล้วแอปสลับภาษาแป้นพิมพ์ระบบให้อัตโนมัติ ตัวที่พิมพ์ต่อจากนั้น
+  ระบบเลยส่งมาเป็น "ภาษาเป้าหมาย" ที่ถูกแล้ว แต่แอปยังเก็บเป็นข้อมูลดิบแบบเดิม
+  พอตรวจซ้ำตอนจบคำ ข้อมูลกลายเป็นข้อมูลผสมตัดคำไม่ออก เลยย้อนคำที่ถูกอยู่แล้วกลับเป็นขยะ
+]]></description>
+            <enclosure url="https://github.com/nicem4re/langfix-releases/releases/download/v0.4.2/LangFix-0.4.2.dmg" length="2691980" type="application/octet-stream" sparkle:edSignature="7oFan7MlwGNkuJw/RMSAY6b/+e+FmJHeKPKEtKbKsPKFCpFr9yX7KbxqANUtzbaof30kkjdG79yZarvE7YzAAw=="/>
+        </item>
+        <item>
             <title>0.4.1</title>
             <pubDate>Mon, 21 Sep 2026 17:50:10 +0700</pubDate>
             <sparkle:version>60</sparkle:version>
